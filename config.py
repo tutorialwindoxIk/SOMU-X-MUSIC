@@ -12,13 +12,13 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Specify where to get the following credentials
-OWNER_USERNAME = getenv("OWNER_USERNAME", "JARVIS_V2")
-BOT_USERNAME = getenv("BOT_USERNAME", "Annie_Music_Robot")
-BOT_NAME = getenv("BOT_NAME", "˹𝐀ɴɴɪᴇ ✘ 𝙼ᴜsɪᴄ˼ ♪")
-ASSUSERNAME = getenv("ASSUSERNAME", "Snowfall_xc")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "alone_somu6")
+BOT_USERNAME = getenv("BOT_USERNAME", "somumusic4_bot")
+BOT_NAME = getenv("BOT_NAME", "「 𝐒𝐨𝐦𝐮 ꭙ 𝐌𝐮𝐬𝐢𝐜 」")
+ASSUSERNAME = getenv("ASSUSERNAME", "somumusic")
 EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOGGER_ID = int(getenv("LOGGER_ID", -1002014167331))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002134425165))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
 GPT_API = getenv("GPT_API")
